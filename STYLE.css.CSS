@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.topo {
+    background: linear-gradient(#a855f7, #6b21a8);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.direita {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.direita a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu-icon {
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: #6b21a8;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    overflow: hidden; 
+    transition: 0.3;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card h3 {
+    color: white;
+    margin: 0 0 15px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.moldura-foto {
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.moldura-foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+} 
+
+    .link-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+/* pagina do destin, video e o aumento, prova*/
+.blocorioo {
+    background-color: #f3e8ff;       
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 0 15px 15px 0;     
+    line-height: 1.6;
+}
+
+.fotodorio02 :hover {
+    transform: scale(1.1); 
+    border-color: #a855f7;
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.7);
+    cursor: pointer;
+}
+
+.dicasrioo {
+   
+    background: #e9d5ff;
+    border: 2px solid #6b21a8;
+    border-radius: 15px;
+    padding: 15px;
+    width: 300px;
+    margin-left: 200px;
+} 
+
+.gastronpr {
+    background: #6b21a8;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.container-gastronomia h1 {
+     background: linear-gradient(#a855f7, #6b21a8);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 30px;
+}
+
+
+.decomidario, .grid-flex {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.vd1, .vd2, .foto1, .foto2, .foto3 {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    background-color: #e9d5ff;
+    border: 2px solid #6b21a8;
+    border-radius: 15px;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.vd1, .vd2 {
+    border: none;
+}
+
+.container-contato {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-contato h1 {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #6b21a8;
+    border-radius: 15px;
+    background: #e9d5ff;
+    color: #6b21a8;
+}
+
+form {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #6b21a8;
+    border-radius: 8px;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.canais {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
